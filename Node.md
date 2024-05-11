@@ -10,7 +10,7 @@ nvcc hello.cu -o hello
 # 常用命令
 ```
 # 查看 nvcc 所在位置
-watch nvcc
+which nvcc
 
 # 查看本机设备数量
 ls -l /dev/nv*
