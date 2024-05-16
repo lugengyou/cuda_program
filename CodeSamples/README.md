@@ -1,7 +1,22 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Lugy
+ * @Date: 2024-05-14 19:44:41
+ * @LastEditors: Andy
+ * @LastEditTime: 2024-05-16 10:47:23
+-->
 
 Copy from: www.wrox.com/go/procudac
 Book: Professional CUDA C Progtamming
 Follow by: gengyou.lu
+
+# nvcc 命令参数说明
+```
+--ptxas-options=-v :获得每个线程的寄存器和每个块的共享内存资源的使用情况
+
+
+```
 
 
 # 第一章学习
@@ -28,7 +43,17 @@ nvcc checkThreadIndex.cu -o ../build/chapter02/checkThreadIndex
 nvcc sumMatrixOnGPU-2D-grid-2D-block.cu -o ../build/chapter02/sumMatrixOnGPU-2D-grid-2D-block
 nvcc sumMatrixOnGPU-1D-grid-1D-block.cu -o ../build/chapter02/sumMatrixOnGPU-1D-grid-1D-block
 nvcc sumMatrixOnGPU-2D-grid-1D-block.cu -o ../build/chapter02/sumMatrixOnGPU-2D-grid-1D-block
+# 代码清单2-8
+nvcc checkDeviceInfor.cu -o ../build/chapter02/checkDeviceInfor
 ```
 
+# 第三章学习
+```
+# 代码清单3-1
+nvcc simpleDivergence.cu -o ../build/chapter03/simpleDivergence
+# 代码清单3-2
+nvcc simpleDeviceQuery.cu -o ../build/chapter03/simpleDeviceQuery
 
+
+```
 
