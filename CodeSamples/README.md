@@ -4,7 +4,7 @@
  * @Author: Lugy
  * @Date: 2024-05-14 19:44:41
  * @LastEditors: Andy
- * @LastEditTime: 2024-05-16 10:47:23
+ * @LastEditTime: 2024-05-20 10:15:12
 -->
 
 Copy from: www.wrox.com/go/procudac
@@ -53,6 +53,12 @@ nvcc checkDeviceInfor.cu -o ../build/chapter02/checkDeviceInfor
 nvcc simpleDivergence.cu -o ../build/chapter03/simpleDivergence
 # 代码清单3-2
 nvcc simpleDeviceQuery.cu -o ../build/chapter03/simpleDeviceQuery
+```
+
+# 第四章学习
+```
+# 代码清单4-1
+nvcc globalVariable.cu -o ../build/chapter04/globalVariable
 
 
 ```
